@@ -50,7 +50,7 @@ public class MyMatrix {
     {
         System.out.println("Итоговый цикл:");
         printsolution();
-        sum +=matrix[solution.size()-1][0];
+        sum +=matrix[solution.get(solution.size()-1)][solution.get(0)];
         System.out.println("Итоговая длина цикла: " + sum);
     }
     public void printmatrix()
